@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/xsu2yzn.css");
+
+@import "./nav";
+@import "./header";
+
+:root {
+  --brand-main: #e68db8;
+  --brand-accent: #f950ae;
+  --brand-text: #999;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: #fbfbfb;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,
+a,
+li,
+button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+    max-width: 1200px;
+}

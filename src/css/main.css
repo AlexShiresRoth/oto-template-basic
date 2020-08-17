@@ -1,0 +1,158 @@
+@import url("https://use.typekit.net/xsu2yzn.css");
+.nav-cstm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 2vh 0;
+  margin-bottom: 5vh;
+  width: 100%; }
+
+.nav-cstm p {
+  max-width: 80%;
+  text-align: center;
+  font-size: 1.2vw;
+  color: var(--brand-text); }
+
+.nav-cstm p span {
+  color: var(--brand-main);
+  font-weight: 700;
+  font-size: 1.3vw; }
+
+@media screen and (max-width: 900px) {
+  .nav-cstm {
+    padding: 1rem 0; }
+  .nav-cstm p,
+  .nav-cstm p span {
+    max-width: 85%;
+    font-size: 1rem; } }
+
+.header-cstm {
+  display: flex;
+  flex-direction: column;
+  align-items: Center;
+  width: 100%; }
+  .header-cstm .container-cstm {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0vw;
+    min-width: 100%; }
+    .header-cstm .container-cstm .section {
+      margin: 2vh 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
+      .header-cstm .container-cstm .section .col-cstm {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1vh 0; }
+        .header-cstm .container-cstm .section .col-cstm h1,
+        .header-cstm .container-cstm .section .col-cstm h2,
+        .header-cstm .container-cstm .section .col-cstm h4,
+        .header-cstm .container-cstm .section .col-cstm h3,
+        .header-cstm .container-cstm .section .col-cstm h4 {
+          text-align: center;
+          color: var(--brand-text);
+          margin: 0; }
+        .header-cstm .container-cstm .section .col-cstm h1 {
+          text-transform: uppercase;
+          font-weight: 700;
+          color: var(--brand-accent);
+          font-family: "Playfair Display", serif;
+          font-size: 2.6rem; }
+      .header-cstm .container-cstm .section .img-container {
+        min-height: 50vh;
+        width: 100%;
+        background: url("https://images.clickfunnels.com/f6/4fc7649e4d4a34812e12b3c10806b9/eternity-band-oto-large.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block; }
+
+@media screen and (max-width: 900px) {
+  .header-cstm {
+    display: flex;
+    flex-direction: column;
+    align-items: Center;
+    width: 100%; }
+    .header-cstm .container-cstm {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2vh 2vw; }
+      .header-cstm .container-cstm .section {
+        margin: 2vh 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column; }
+        .header-cstm .container-cstm .section .col-cstm {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 1vh 0; }
+          .header-cstm .container-cstm .section .col-cstm h2,
+          .header-cstm .container-cstm .section .col-cstm h4,
+          .header-cstm .container-cstm .section .col-cstm h3,
+          .header-cstm .container-cstm .section .col-cstm h4 {
+            text-align: center;
+            color: var(--brand-text);
+            margin: 0; }
+          .header-cstm .container-cstm .section .col-cstm h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--brand-accent); }
+        .header-cstm .container-cstm .section .img-container {
+          min-height: 70vh;
+          width: 100%;
+          background: url("https://images.clickfunnels.com/32/feb56d075d441aa4ab8d8725b6c437/eternity-band-mobile.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 50% 0;
+          display: block; } }
+
+:root {
+  --brand-main: #e68db8;
+  --brand-accent: #f950ae;
+  --brand-text: #999; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: #fbfbfb; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+h1,
+a,
+li,
+button {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px; }
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+main {
+  max-width: 1200px; }
