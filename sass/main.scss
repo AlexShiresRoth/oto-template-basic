@@ -18,18 +18,15 @@ body {
   background: #fbfbfb;
 }
 body {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1,
 a,
 li,
-button {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 16px;
-}
+button,
 h2,
 h3,
 h4,
@@ -39,8 +36,9 @@ p {
   font-family: sofia-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
 }
 
-main{
-    max-width: 1200px;
+main {
+  max-width: 1200px;
 }
